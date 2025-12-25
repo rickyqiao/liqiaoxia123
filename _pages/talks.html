@@ -1,16 +1,27 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Research"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<section class="cv-section">
+  <h2 style="color:#c00000;">Research Interests</h2>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  <ul class="interest-list">
+    <li>Human-Robot Collaboration</li>
+    <li>Smart Manufacturing System</li>
+    <li>Prognostics and Health Management</li>
+    <li>Industrial AI</li>
+  </ul>
+</section>
 
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<style>
+  .interest-list {
+    margin-left: 1.2rem;
+    line-height: 1.7;
+  }
+  .interest-list li {
+    margin: 0.35rem 0;
+  }
+</style>
