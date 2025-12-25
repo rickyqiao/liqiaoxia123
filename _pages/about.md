@@ -38,17 +38,15 @@ redirect_from:
   <h2>Openings</h2>
 
   <p>
-    We are looking for highly self-motivated <strong>Postdoctoral Fellows</strong> and
-    <strong>Ph.D. Students</strong> who are interested and experienced in
-    <strong>(i) Industrial AI and Intelligent Manufacturing</strong>, and
+    We are looking for highly self-motivated <strong>Postdoctoral Fellows</strong>, 
+    <strong>Ph.D. Students</strong>, and <strong>Research Associate/Assistant</strong>, who are interested and experienced in
+    <strong>(i) Smart Manufacturing</strong>, and
     <strong>(ii) Human-Robot Collaboration and Autonomous Systems</strong>.
-    Applicants are welcome to apply for prestigious
-    <a href="#" target="_blank">Fellowship &amp; Scholarship Schemes</a>.
+    Applicants are welcome to apply for prestigious Fellowship Scholarship.
     If you are interested, please email me your CV, transcripts, and publications.
   </p>
 
   <p>
-    Undergraduate and MSc students seeking <a href="#" target="_blank">URIS</a>
-    or dissertation supervision are also welcome.
+    Undergraduate and MSc students seeking supervision are also welcome.
   </p>
 </section>
