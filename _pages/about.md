@@ -47,6 +47,6 @@ redirect_from:
   </p>
 
   <p>
-    Undergraduate and MSc students seeking supervision are also welcome.
+    Undergraduate and MSc students are also welcome.
   </p>
 </section>
