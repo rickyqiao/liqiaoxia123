@@ -1,5 +1,6 @@
 ---
 title: "ISE3001 Dynamic Programming"
 collection: teaching
-venue: "Kong Kong Polytechnic University"
+type: "Lecturer"
+venue: "Hong Kong Polytechnic University"
 ---
