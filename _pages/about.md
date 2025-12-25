@@ -28,9 +28,8 @@ redirect_from:
 
   <p>
     His primary research interests focus on data-driven intelligent manufacturing systems, including
-    human-robot collaboration, industrial artificial intelligence, prognostics and health management,
-    and trustworthy machine learning. He has published papers in leading journals and conferences such as
-    IEEE TII, IEEE TMech, IEEE TRel, RESS, RCIM, JMS, and others.
+    human-robot collaboration, industrial artificial intelligence, and prognostics and health management. He has published papers in leading journals such as
+    TII, TMech, TRel, TIM, TBD, RESS, RCIM, JMS, and others.
   </p>
 </section>
 
