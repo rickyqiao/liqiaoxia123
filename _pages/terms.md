@@ -33,7 +33,7 @@ modified: 2026-04-03
 
   <ul>
     <li>
-      <strong>Huang Chenghao</strong> (from HITSZ), 2026.02 – Present
+      <strong>Huang Chenghao</strong> (M.S. from HITSZ), 2026.02 – Present
     </li>
   </ul>
 </section>

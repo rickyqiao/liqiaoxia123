@@ -4,7 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-a-visual-reasoning-based-approach-for-driving-experience-improvement-in-the-ar-assisted-head-up-displays/
 date: 2023-01-01
-sortkey: 13
+first_author: false
+sortkey: 2023013
 venue: "Advanced Engineering Informatics"
 citation: >-
   Yongshi Liang, Pai Zheng, and Liqiao Xia. "A visual reasoning-based approach for driving experience improvement in the AR-assisted head-up displays." <i>Advanced Engineering Informatics</i>, 55: 101888, 2023.

@@ -18,10 +18,3 @@ Education
 Work Experience
 ======
 * 2025.04-Present: Research Assistant Professor, Department of Industrial and Systems Engineering, The Hong Kong Polytechnic University
-  
-Teaching
-======
-  {% assign teaching_posts = site.teaching | sort: "date" | reverse %}
-  <ul>{% for post in teaching_posts %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>

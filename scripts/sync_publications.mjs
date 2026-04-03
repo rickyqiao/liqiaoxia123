@@ -56,6 +56,17 @@ const publications = [
     recordurl: "https://dblp.org/rec/journals/tr/XiaZHLLG25",
   },
   {
+    title: "LLM-Augmented Multi-Fidelity Bayesian Optimization for Parameter Optimization in Human-Robot Collaborative Assembly",
+    year: 2025,
+    category: "conferences",
+    venue: "IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2025)",
+    citation:
+      'Liqiao Xia, Hongpeng Chen, Jiazhen Pang, Shimin Liu, Pai Zheng, and Fazel Ansari. "LLM-Augmented Multi-Fidelity Bayesian Optimization for Parameter Optimization in Human-Robot Collaborative Assembly." <i>IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2025)</i>, 2025.',
+    paperurl: "https://doi.org/10.1109/AIM64088.2025.11175780",
+    recordurl:
+      "https://research.polyu.edu.hk/en/publications/llm-augmented-multi-fidelity-bayesian-optimization-for-parameter-/",
+  },
+  {
     title: "Establishing a dynamic and static knowledge model of the manufacturing cell management system: An active push approach",
     year: 2024,
     category: "manuscripts",
@@ -245,7 +256,10 @@ async function main() {
       publicationsDir,
       pub.filename ?? `${pub.year}-01-01-${slug}.md`,
     );
-    const sortkey = publications.length - index;
+    const firstAuthor =
+      pub.citation.startsWith("Liqiao Xia") || pub.citation.startsWith("L. Xia");
+    const tieBreaker = publications.length - index;
+    const sortkey = pub.year * 1000 + (firstAuthor ? 500 : 0) + tieBreaker;
 
     const lines = [
       "---",
@@ -254,6 +268,7 @@ async function main() {
       `category: ${pub.category}`,
       `permalink: /publication/${pub.year}-${slug}/`,
       `date: ${pub.year}-01-01`,
+      `first_author: ${firstAuthor}`,
       `sortkey: ${sortkey}`,
       `venue: "${escapeYaml(pub.venue)}"`,
       "citation: >-",

@@ -4,7 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-actual-construction-cost-prediction-using-hypergraph-deep-learning-techniques/
 date: 2025-01-01
-sortkey: 24
+first_author: false
+sortkey: 2025025
 venue: "Advanced Engineering Informatics"
 citation: >-
   Hao Liu, Mingkai Li, Jack C. P. Cheng, Chimay J. Anumba, and Liqiao Xia. "Actual construction cost prediction using hypergraph deep learning techniques." <i>Advanced Engineering Informatics</i>, 65: 103187, 2025.

@@ -4,7 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-graph-embedding-based-bayesian-network-for-fault-isolation-in-complex-equipment/
 date: 2025-01-01
-sortkey: 20
+first_author: true
+sortkey: 2025521
 venue: "IEEE Transactions on Reliability"
 citation: >-
   Liqiao Xia, Pai Zheng, Manuel Herrera, Yongshi Liang, Xinyu Li, and Liang Gao. "Graph Embedding-Based Bayesian Network for Fault Isolation in Complex Equipment." <i>IEEE Transactions on Reliability</i>, 74(3): 3897-3910, 2025.

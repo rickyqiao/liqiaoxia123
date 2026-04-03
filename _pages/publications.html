@@ -26,8 +26,9 @@ author_profile: true
   <h2 style="color:#c00000;">Journal Articles</h2>
   <ol class="pub-list">
     {% for post in journal_publications %}
+      {% assign citation_html = post.citation | replace: "Liqiao Xia", "<strong>Liqiao Xia</strong>" | replace: "L. Xia", "<strong>L. Xia</strong>" %}
       <li class="pub-item">
-        <div class="pub-citation">{{ post.citation }}</div>
+        <div class="pub-citation">{{ citation_html }}</div>
         {% if post.note %}
           <div class="pub-note">{{ post.note }}</div>
         {% endif %}
@@ -54,8 +55,9 @@ author_profile: true
     <h2 style="color:#c00000;">Conference Papers</h2>
     <ol class="pub-list">
       {% for post in conference_publications %}
+        {% assign citation_html = post.citation | replace: "Liqiao Xia", "<strong>Liqiao Xia</strong>" | replace: "L. Xia", "<strong>L. Xia</strong>" %}
         <li class="pub-item">
-          <div class="pub-citation">{{ post.citation }}</div>
+          <div class="pub-citation">{{ citation_html }}</div>
           {% if post.paperurl or post.recordurl %}
             <p class="pub-links">
               {% if post.paperurl %}
@@ -80,8 +82,9 @@ author_profile: true
     <h2 style="color:#c00000;">Preprints and Other Publications</h2>
     <ol class="pub-list">
       {% for post in preprint_publications %}
+        {% assign citation_html = post.citation | replace: "Liqiao Xia", "<strong>Liqiao Xia</strong>" | replace: "L. Xia", "<strong>L. Xia</strong>" %}
         <li class="pub-item">
-          <div class="pub-citation">{{ post.citation }}</div>
+          <div class="pub-citation">{{ citation_html }}</div>
           {% if post.paperurl or post.recordurl %}
             <p class="pub-links">
               {% if post.paperurl %}

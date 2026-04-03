@@ -4,7 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-maintenance-planning-recommendation-of-complex-industrial-equipment-based-on-knowledge-graph-and-graph-neural-network/
 date: 2023-01-01
-sortkey: 10
+first_author: true
+sortkey: 2023510
 venue: "Reliability Engineering & System Safety"
 citation: >-
   Liqiao Xia, Yongshi Liang, Jiewu Leng, and Pai Zheng. "Maintenance planning recommendation of complex industrial equipment based on knowledge graph and graph neural network." <i>Reliability Engineering & System Safety</i>, 232: 109068, 2023.
