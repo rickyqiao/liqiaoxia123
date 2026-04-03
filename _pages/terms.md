@@ -8,19 +8,19 @@ modified: 2026-04-03
 
   <ul>
     <li>
-      <strong>Wu Hongjin</strong> (M.S. from HUST), 2025.09 – Present
+      <strong>Wu Hongjin</strong> (M.S. from HUST), 2025.09 - Present
       <ul>
         <li>Human-Robot Collaboration, Smart Manufacturing</li>
       </ul>
     </li>
     <li>
-      <strong>Bao Xurui</strong> (M.S. from BUAA), 2025.09 – Present
+      <strong>Bao Xurui</strong> (M.S. from BUAA), 2025.09 - Present
       <ul>
         <li>Vision-Language Model, Unmanned Aerial Vehicle</li>
       </ul>
     </li>
     <li>
-      <strong>Qian Rui</strong> (M.S. from NTU), 2026.09 – Present
+      <strong>Qian Rui</strong> (M.S. from NTU), 2026.09 - Present
       <ul>
         <li>Human-Robot Collaboration, Computer Vision</li>
       </ul>
@@ -33,7 +33,10 @@ modified: 2026-04-03
 
   <ul>
     <li>
-      <strong>Huang Chenghao</strong> (M.S. from HITSZ), 2026.02 – Present
+      <strong>Huang Chenghao</strong> (M.S. from HITSZ), 2026.02 - Present
+    </li>
+    <li>
+      <strong>Ren Zeyuan</strong> (B.S. from PolyU), 2025.09 - Present
     </li>
   </ul>
 </section>
@@ -43,17 +46,19 @@ modified: 2026-04-03
 
   <ul>
     <li>
-      <strong>Zhang Ziyang</strong>, 2025.09 – Present
+      <strong>Zhang Ziyang</strong>, 2025.09 - Present
     </li>
     <li>
-      <strong>Qiao Jiazhen</strong>, 2025.09 – Present
+      <strong>Qiao Jiazhen</strong>, 2025.09 - Present
     </li>
     <li>
-      <strong>Lu Yangtianyu</strong>, 2025.09 – Present
+      <strong>Lu Yangtianyu</strong>, 2025.09 - Present
+    </li>
+    <li>
+      <strong>Fu Xingchen</strong>, 2025.09 - Present
     </li>
   </ul>
 </section>
-
 
 <style>
   .cv-section ul {
