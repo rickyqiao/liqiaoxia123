@@ -48,4 +48,10 @@ redirect_from:
   <p>
     Undergraduate and MSc students are also welcome.
   </p>
+
+  <p>
+    We strongly encourage applications from candidates with diverse backgrounds and experiences.
+    We are committed to fostering an inclusive, respectful, and collaborative research environment
+    where different perspectives are valued.
+  </p>
 </section>
