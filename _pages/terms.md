@@ -1,10 +1,10 @@
 ---
 permalink: /team/
 title: "Team"
-modified: 2025-12-24
+modified: 2026-04-03
 ---
 <section class="cv-section">
-  <h2>Phd students</h2>
+  <h2>PhD Students</h2>
 
   <ul>
     <li>
@@ -19,6 +19,12 @@ modified: 2025-12-24
         <li>Vision-Language Model, Unmanned Aerial Vehicle</li>
       </ul>
     </li>
+    <li>
+      <strong>Qian Rui</strong> (Master from NTU), 2026.09 – Present
+      <ul>
+        <li>Human-Robot Collaboration, Computer Vision</li>
+      </ul>
+    </li>
   </ul>
 </section>
 
@@ -27,10 +33,7 @@ modified: 2025-12-24
 
   <ul>
     <li>
-      <strong>Qian rui</strong> (Master from NTU), 2025.07 – Present
-      <ul>
-        <li>Human Robot Collaboration, Computer Vision</li>
-      </ul>
+      <strong>Cheng Hao Wang</strong> (Master from Harbin Institute of Technology), 2026.02 – Present
     </li>
   </ul>
 </section>

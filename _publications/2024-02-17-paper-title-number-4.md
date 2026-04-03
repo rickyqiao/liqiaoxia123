@@ -1,13 +1,16 @@
 ---
-title: "Paper Title Number 4"
+title: "MSDF-VAE: A Cloud-Edge Collaborative Method for Fault Diagnosis Based on Transfer Learning"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/2025-msdf-vae-a-cloud-edge-collaborative-method-for-fault-diagnosis-based-on-transfer-learning/
+date: 2025-01-01
+sortkey: 23
+venue: "IEEE Internet of Things Journal"
+citation: >-
+  Xiaobin Li, Bo Xiao, Xuejiao Chen, Pei Jiang, Xi Vincent Wang, Pai Zheng, Liqiao Xia, and Chao Yin. "MSDF-VAE: A Cloud-Edge Collaborative Method for Fault Diagnosis Based on Transfer Learning." <i>IEEE Internet of Things Journal</i>, 12(12): 22393-22403, 2025.
+recordurl: "https://dblp.org/rec/journals/iotj/LiXCJWZXY25"
+share: false
+comments: false
+related: false
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Publication details are available via the external links below.

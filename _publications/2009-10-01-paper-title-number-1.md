@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 1"
+title: "Graph Embedding-Based Bayesian Network for Fault Isolation in Complex Equipment"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2025-graph-embedding-based-bayesian-network-for-fault-isolation-in-complex-equipment/
+date: 2025-01-01
+sortkey: 20
+venue: "IEEE Transactions on Reliability"
+citation: >-
+  Liqiao Xia, Pai Zheng, Manuel Herrera, Yongshi Liang, Xinyu Li, and Liang Gao. "Graph Embedding-Based Bayesian Network for Fault Isolation in Complex Equipment." <i>IEEE Transactions on Reliability</i>, 74(3): 3897-3910, 2025.
+recordurl: "https://dblp.org/rec/journals/tr/XiaZHLLG25"
+share: false
+comments: false
+related: false
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Publication details are available via the external links below.

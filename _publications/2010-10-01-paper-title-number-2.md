@@ -1,14 +1,16 @@
 ---
-title: "Paper Title Number 2"
+title: "Leveraging Large Language Models to Empower Bayesian Networks for Reliable Human-Robot Collaborative Disassembly Sequence Planning in Remanufacturing"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2025-leveraging-large-language-models-to-empower-bayesian-networks-for-reliable-human-robot-collaborative-disassembly-sequence-planning-in-remanufacturing/
+date: 2025-01-01
+sortkey: 21
+venue: "IEEE Transactions on Industrial Informatics"
+citation: >-
+  Liqiao Xia, Youxi Hu, Jiazhen Pang, Xiangying Zhang, and Chao Liu. "Leveraging Large Language Models to Empower Bayesian Networks for Reliable Human-Robot Collaborative Disassembly Sequence Planning in Remanufacturing." <i>IEEE Transactions on Industrial Informatics</i>, 21(4): 3117-3126, 2025.
+recordurl: "https://dblp.org/rec/journals/tii/XiaHPZL25"
+share: false
+comments: false
+related: false
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Publication details are available via the external links below.

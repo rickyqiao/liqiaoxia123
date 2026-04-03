@@ -6,84 +6,133 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on
+    <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
-<h2 style="color:#c00000;">Selected Journal Publications</h2>
+{% comment %}
+  Add future publications by creating a new markdown file in _publications/.
+  Copy any existing file there as a template and update the front matter fields.
+{% endcomment %}
 
-<ol class="pub-list">
-  <li>
-    <strong>L. Xia</strong>, Y. Hu, J. Pang, X. Zhang, and C. Liu,
-    “<em>Leveraging Large Language Models to Empower Bayesian Networks for Reliable Human-Robot Collaborative Disassembly Sequence Planning in Remanufacturing</em>,”
-    <i>IEEE Transactions on Industrial Informatics</i>,
-    vol. 21, no. 4, pp. 3117–3126, 2025.
-  </li>
+{% assign publications = site.publications | sort: "sortkey" | reverse %}
+{% assign journal_publications = publications | where: "category", "manuscripts" %}
+{% assign conference_publications = publications | where: "category", "conferences" %}
+{% assign preprint_publications = publications | where: "category", "preprints" %}
 
-  <li>
-    <strong>L. Xia</strong>, J. Fan, A. Parlikad, X. Huang, and P. Zheng,
-    “<em>Unlocking large language model power in industry: Privacy-preserving collaborative creation of knowledge graph</em>,”
-    <i>IEEE Transactions on Big Data</i>.
-  </li>
+<section class="cv-section">
+  <h2 style="color:#c00000;">Journal Articles</h2>
+  <ol class="pub-list">
+    {% for post in journal_publications %}
+      <li class="pub-item">
+        <div class="pub-citation">{{ post.citation }}</div>
+        {% if post.note %}
+          <div class="pub-note">{{ post.note }}</div>
+        {% endif %}
+        {% if post.paperurl or post.recordurl %}
+          <p class="pub-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" target="_blank" rel="noopener">View paper</a>
+            {% endif %}
+            {% if post.paperurl and post.recordurl %}
+              <span class="pub-sep">|</span>
+            {% endif %}
+            {% if post.recordurl %}
+              <a href="{{ post.recordurl }}" target="_blank" rel="noopener">View record</a>
+            {% endif %}
+          </p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</section>
 
-  <li>
-    <strong>L. Xia</strong>, P. Zheng, M. Herrera, Y. Liang, X. Li, and L. Gao,
-    “<em>Graph Embedding-Based Bayesian Network for Fault Isolation in Complex Equipment</em>,”
-    <i>IEEE Transactions on Reliability</i>,
-    doi: 10.1109/TR.2024.3416064.
-  </li>
+{% if conference_publications.size > 0 %}
+  <section class="cv-section">
+    <h2 style="color:#c00000;">Conference Papers</h2>
+    <ol class="pub-list">
+      {% for post in conference_publications %}
+        <li class="pub-item">
+          <div class="pub-citation">{{ post.citation }}</div>
+          {% if post.paperurl or post.recordurl %}
+            <p class="pub-links">
+              {% if post.paperurl %}
+                <a href="{{ post.paperurl }}" target="_blank" rel="noopener">View paper</a>
+              {% endif %}
+              {% if post.paperurl and post.recordurl %}
+                <span class="pub-sep">|</span>
+              {% endif %}
+              {% if post.recordurl %}
+                <a href="{{ post.recordurl }}" target="_blank" rel="noopener">View record</a>
+              {% endif %}
+            </p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endif %}
 
-  <li>
-      <strong>L. Xia</strong>, Y. Liang, J. Leng, and P. Zheng,
-      “<em>Maintenance planning recommendation of complex industrial equipment based on knowledge graph and graph neural network</em>,”
-      <i>Reliability Engineering &amp; System Safety</i>, vol. 232, p. 109068, 2023.
-      <span class="pub-note">(ESI Highly Cited Paper)</span>
-    </li>
-
-   <li>
-      <strong>L. Xia</strong>, C. Li, C. Zhang, S. Liu, and P. Zheng,
-      “<em>Leveraging error-assisted fine-tuning large language models for manufacturing excellence</em>,”
-      <i>Robotics and Computer-Integrated Manufacturing</i>, vol. 88, p. 102728, 2024.
-    </li>
-
-  <li>
-  <strong>L. Xia</strong>, P. Zheng, J. Li, X. Huang, and R. X. Gao,
-  “<em>Histogram-based gradient boosting tree: A federated learning approach for collaborative fault diagnosis</em>,”
-  <i>IEEE/ASME Transactions on Mechatronics</i>, 2023.
-</li>
-
-<li>
-  <strong>L. Xia</strong>, P. Zheng, X. Li, R. X. Gao, and L. Wang,
-  “<em>Toward cognitive predictive maintenance: A survey of graph-based approaches</em>,”
-  <i>Journal of Manufacturing Systems</i>, vol. 64, pp. 107–120, 2022.
-</li>
-
-<li>
-  <strong>L. Xia</strong>, P. Zheng, X. Huang, and C. Liu,
-  “<em>A novel hypergraph convolution network-based approach for predicting the material removal rate in chemical mechanical planarization</em>,”
-  <i>Journal of Intelligent Manufacturing</i>, vol. 33, no. 8, pp. 2295–2306, 2022.
-</li>
-
-<li>
-  <strong>L. Xia</strong>, Y. Liang, P. Zheng, and X. Huang,
-  “<em>Residual-hypergraph convolution network: A model-based and data-driven integrated approach for fault diagnosis in complex equipment</em>,”
-  <i>IEEE Transactions on Instrumentation and Measurement</i>, vol. 72, pp. 1–11, 2022.
-</li>
-
-<li>
-  <strong>L. Xia</strong>, P. Zheng, J. Li, W. Tang, and X. Zhang,
-  “<em>Privacy-preserving gradient boosting tree: Vertical federated learning for collaborative bearing fault diagnosis</em>,”
-  <i>IET Collaborative Intelligent Manufacturing</i>, vol. 4, no. 3, pp. 208–219, 2022.
-</li>
-</ol>
-
+{% if preprint_publications.size > 0 %}
+  <section class="cv-section">
+    <h2 style="color:#c00000;">Preprints and Other Publications</h2>
+    <ol class="pub-list">
+      {% for post in preprint_publications %}
+        <li class="pub-item">
+          <div class="pub-citation">{{ post.citation }}</div>
+          {% if post.paperurl or post.recordurl %}
+            <p class="pub-links">
+              {% if post.paperurl %}
+                <a href="{{ post.paperurl }}" target="_blank" rel="noopener">View paper</a>
+              {% endif %}
+              {% if post.paperurl and post.recordurl %}
+                <span class="pub-sep">|</span>
+              {% endif %}
+              {% if post.recordurl %}
+                <a href="{{ post.recordurl }}" target="_blank" rel="noopener">View record</a>
+              {% endif %}
+            </p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+{% endif %}
 
 <style>
   .pub-list {
     padding-left: 1.5em;
+    margin-bottom: 2rem;
   }
 
-  .pub-list li {
-    margin-bottom: 14px;   /* 每条论文的间距 */
-    line-height: 1.6;      /* 行距 */
+  .pub-item {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  .pub-citation {
+    margin-bottom: 0.25rem;
+  }
+
+  .pub-note {
+    color: #c00000;
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 0.25rem;
+  }
+
+  .pub-links {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .pub-links a {
+    text-decoration: none;
+  }
+
+  .pub-sep {
+    margin: 0 0.35rem;
   }
 </style>
